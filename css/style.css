@@ -1,0 +1,114 @@
+body{
+    margin: 0 auto;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+  
+li {
+  float: left;
+}
+
+li button {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+
+/*card*/
+
+.main{
+  width: 80%;
+  height: 400px;
+
+  background-color: transparent;
+  margin-top: 100px;
+}
+
+
+.card-bestsell{
+  display: inline;
+  float:left;
+  margin-left: 30px;
+
+  transform: translate(-0%, -0%);
+  width: 300px;
+  height: 400px;
+  background: #979797;
+  overflow:hidden;
+
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(34,141,255,1);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(34,141,255,1);
+  box-shadow: 0px 0px 40px 0px rgba(34,141,255,1);
+}
+
+  .card-bestsell .imgBx,
+.card-bestsell .details{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+
+.card-bestsell .imgbx {
+	top:0;
+	left: 0;
+}
+
+.card-bestsell:hover .imgbx{
+  top:0;
+  left: -100%;
+}
+
+.card-bestsell .imgbx img{
+  width: 100%;
+}
+
+
+.card-bestsell .details{
+	top:0;
+	left:100%;
+	background: #222d35;
+	padding: 50px 30px;
+}
+
+
+.card-bestsell:hover .details{
+  top:0;
+  left: 0;
+}
+
+.card-bestsell .details h2{
+  color: #228dff;
+  text-align: center;
+  margin: 0;
+  padding:  0 0 10px;
+  border-bottom: 2px solid #fff; 
+}
+
+.card-bestsell .details p {
+  margin: 20px 0 0;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 13px;
+}
